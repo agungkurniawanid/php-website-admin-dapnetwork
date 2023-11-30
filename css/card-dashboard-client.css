@@ -1,0 +1,295 @@
+.wrapper-card-info-client {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  gap: 10px;
+  padding: 0rem 1rem 1rem 1rem;
+}
+.card-client-baru {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  opacity: 0;
+  transform: translateY(50%);
+  transition: opacity 0.5s, transform 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.card-client-baru .body img {
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card-client-baru .header .title-card {
+  font-size: 16px;
+  color: #151d48;
+  font-weight: 600;
+}
+.card-client-baru .header .subtitle-card {
+  font-size: 14px;
+  font-weight: 500;
+  color: #737791;
+}
+.container-body {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+.card-client-baru .body a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+}
+.card-client-baru .body a:hover {
+  background-color: #f4f4f4;
+}
+.card-client-baru .body a .image-name-paketdipesan {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.card-client-baru .body .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-client-baru .body a .image-name-paketdipesan .name {
+  font-size: 14px;
+  color: #151d48;
+  font-weight: 600;
+}
+.card-client-baru .body a .image-name-paketdipesan .paketdipesan {
+  font-size: 12px;
+  font-weight: 500;
+  color: #737791;
+}
+.card-client-baru .footer img {
+  width: 24px;
+}
+.card-client-baru .button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-client-baru .button img {
+  width: 30px;
+  border-radius: 10px;
+  background-color: #4079ed;
+  padding: 5px;
+}
+.card-client-baru .footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-client-baru .footer .total-client {
+  background-color: #f4f6fe;
+  color: #fa5a7d;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.card-client-baru .footer .tombol-lihat-semua a {
+  display: flex;
+}
+.card-client-baru .footer .tombol-lihat-semua a div:first-child {
+  color: #4079ed;
+  font-size: 14px;
+  font-weight: 500;
+}
+.card-client-baru .footer .tombol-lihat-semua a div:first-child:hover {
+  text-decoration: underline;
+}
+
+/* todo card 2 */
+.card-client-metode-pembayaran {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: white;
+  opacity: 0;
+  transform: translateY(50%);
+  transition: opacity 0.5s, transform 0.5s;
+}
+.card-client-metode-pembayaran .header {
+  font-size: 16px;
+  font-weight: 600;
+  color: #151d48;
+}
+.card-client-metode-pembayaran .body {
+  margin-top: 10px;
+}
+.card-client-metode-pembayaran .body .image-name-deskripsi {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+.card-client-metode-pembayaran .body .image-name-deskripsi .name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #151d48;
+}
+.card-client-metode-pembayaran .body .image-name-deskripsi .deskripsi {
+  font-size: 12px;
+  font-weight: 500;
+  color: #737791;
+}
+.card-client-metode-pembayaran .body img {
+  width: 50px;
+  background-color: #f4f6fe;
+  padding: 10px;
+  border-radius: 50%;
+}
+.card-client-metode-pembayaran .footer {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  width: 100%;
+}
+.card-client-metode-pembayaran .footer a {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #151d48;
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.button-client-metode {
+  color: white !important;
+  text-transform: capitalize;
+}
+.card-client-metode-pembayaran .footer a:visited {
+  color: white;
+}
+.card-client-metode-pembayaran .wrapper-body-footer {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* todo card 3  */
+.card-client-sudah-dan-belum-bayar {
+  opacity: 0;
+  transform: translateY(50%);
+  transition: opacity 0.5s, transform 0.5s;
+  display: flex;
+  flex-direction: column;
+}
+.card-client-sudah-bayar {
+  padding: 1rem;
+  background-color: white;
+  border-radius: 10px;
+  flex-grow: 1;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.card-client-belum-bayar {
+  margin-top: 10px;
+  padding: 1rem;
+  border-radius: 10px;
+  flex-grow: 1;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.card-client-sudah-bayar img {
+  width: 40px;
+  object-fit: cover;
+  background-color: #4079ed;
+  padding: 10px;
+  border-radius: 50%;
+}
+.card-client-belum-bayar img {
+  width: 40px;
+  object-fit: cover;
+  background-color: #fa5a7d;
+  padding: 10px;
+  border-radius: 50%;
+}
+.card-client-belum-bayar p,
+.card-client-sudah-bayar p {
+  font-size: 16px;
+  color: #151d48;
+  font-weight: 600;
+}
+.card-client-belum-bayar p:nth-child(2),
+.card-client-sudah-bayar p:nth-child(2) {
+  font-size: 12px;
+  font-weight: 500;
+  color: #737791;
+}
+.wrapper-icon-title-client-pay {
+  display: flex;
+  gap: 10px;
+}
+.card-client-belum-bayar .title div:first-child,
+.card-client-sudah-bayar .title div:first-child {
+  color: #737791;
+  font-size: 12px;
+  font-weight: 500;
+}
+.card-client-belum-bayar .title div:nth-child(2),
+.card-client-sudah-bayar .title div:nth-child(2) {
+  color: #151d48;
+  font-weight: 600;
+  font-size: 18px;
+}
+.container-wrapper-icon-title-pay {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#icon-detail {
+  border-radius: 10px;
+}
+
+@media (max-width: 992px) {
+  .card-client-metode-pembayaran .footer a {
+    padding: 5px;
+  }
+  .card-client-metode-pembayaran .body .image-name-deskripsi {
+    margin-bottom: 0;
+  }
+  .card-client-metode-pembayaran .body img {
+    width: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .wrapper-card-info-client {
+    grid-template-columns: 1fr 1fr;
+  }
+  .card-client-sudah-dan-belum-bayar {
+    grid-column: span 2;
+    gap: 10px;
+    flex-direction: row;
+  }
+  .card-client-belum-bayar {
+    margin-top: 0;
+  }
+  .card-client-metode-pembayaran .footer a {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .wrapper-card-info-client {
+    grid-template-columns: 1fr;
+  }
+  .card-client-sudah-dan-belum-bayar {
+    grid-column: span 1;
+  }
+  .card-client-sudah-dan-belum-bayar {
+    flex-direction: column;
+  }
+  .card-client-metode-pembayaran .footer a {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,53 @@
+.container-card-sudahlunas {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+}
+.wrapper-card-sudahlunas {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 2rem;
+}
+.wrapper-card-sudahlunas .imageclient-btndetail {
+    width: 100%;
+    gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-card-sudahlunas .btn-detail a {
+    padding: 10px 20px;
+    background-color: #4079ed;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.container-card-sudahlunas .imageclient-btndetail img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.wrapper-card-sudahlunas .nama-jeniskelamin {
+    margin-top: 1rem;
+}
+.wrapper-card-sudahlunas .nama {
+    font-weight: 600;
+    font-size: 16px;
+    color: #09425d;
+}
+.wrapper-card-sudahlunas .jenis-kelamin {
+    font-size: 14px;
+    font-weight: 500;
+    color: #d9d9d9;
+}
+.wrapper-card-sudahlunas .alamat {
+    margin-top: 1rem;
+    font-size: 12px;
+    font-weight: 500;
+    color: #09425d;
+}

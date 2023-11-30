@@ -1,0 +1,140 @@
+.wup-wrapper-update-product {
+    padding: 1rem;
+    position: fixed;
+    z-index: 20;
+    opacity: 0;
+    visibility: hidden;
+    max-height: 500px;
+    overflow-y: auto;
+    width: 400px;
+    transition: all .3s ease-in-out;
+    left: 50%;
+    top: -100%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.wup-wrapper-update-product .note {
+    font-size: 12px;
+    font-weight: 500;
+    color: #151d48;
+    background-color: #FFE2E5;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.wup-wrapper-update-product .wup-juduldanclose {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wup-wrapper-update-product .wup-juduldanclose .wup-judul {
+    font-size: 16px;
+    font-weight: 600;
+    color: #151d48;
+}
+
+.wup-wrapper-update-product .wup-juduldanclose .wup-close img {
+    cursor: pointer;
+    color: white;
+}
+
+.wup-wrapper-update-product form {
+    margin-top: 1rem;
+}
+
+.wup-wrapper-update-product form .wup-input {
+    position: relative;
+}
+
+.wup-wrapper-update-product form label {
+    cursor: pointer;
+}
+
+.wup-wrapper-update-product form .wup-input img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+
+.wup-wrapper-update-product .wup-input-foto {
+    display: flex;
+    justify-content: center;
+}
+
+.wup-wrapper-update-product input[type="file"] {
+    padding: 10px 20px;
+    background-color: #f6f6f8;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.wup-wrapper-update-product .wup-pembungkus-input-file {
+    position: relative;
+}
+
+#wup-fotountukgambarproduct {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    top: 0;
+    font-size: 12px;
+    color: #151d48;
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: #f6f6f8;
+    border-radius: 10px;
+}
+
+.wup-wrapper-update-product input[type="text"],
+.wup-wrapper-update-product input[type="number"],
+.wup-wrapper-update-product textarea,
+.wup-wrapper-update-product select {
+    border: none;
+    width: 100%;
+    background-color: #f6f6f8;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.wup-wrapper-update-product label {
+    color: #151d48;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.wup-wrapper-update-product .wup-button {
+    margin-top: 15px;
+}
+
+.wup-wrapper-update-product button {
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    background-color: #0547f3;
+    padding: 10px 20px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+/* todo untuk ovrlay  */
+.overlay-popup-update-product {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    visibility: hidden;
+}

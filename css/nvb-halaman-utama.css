@@ -1,0 +1,172 @@
+.wrapper-navbar-content {
+  position: relative;
+  width: calc(100% - 18%);
+  margin-left: 18%;
+}
+/* ? kontent navigasi kontent  */
+.icon-barmenu {
+  display: none;
+}
+.icon-barmenu img {
+  width: 28px;
+  cursor: pointer;
+}
+.wrapper-navigasi {
+  width: 100%;
+  display: flex;
+  position: relative;
+  gap: 2rem;
+  padding: 10px 2rem;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(-50%);
+  opacity: 0;
+  animation: navigasi 1s ease-in-out forwards;
+}
+@keyframes navigasi {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.title-halaman {
+  font-size: 24px;
+  font-weight: 700;
+  color: #151d48;
+}
+.icon-search img {
+  width: 20px;
+  margin-top: 5px;
+  object-fit: cover;
+}
+.profile-dan-icon-informasi {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.icon-informasi {
+  cursor: pointer;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  padding: 5px;
+  border-radius: 10px;
+  align-items: center;
+  background-color: #fffaf1;
+}
+.icon-informasi img {
+  object-fit: contain;
+  width: 20px;
+}
+.foto-profile-user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.foto {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.foto div {
+  font-size: 12px;
+  cursor: pointer;
+}
+.foto {
+  width: fit-content;
+  height: fit-content;
+}
+.foto-profile-user .foto img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.nama-user {
+  font-weight: 600;
+  color: #151d48;
+  font-size: 14px !important;
+}
+.hak-akses {
+  font-size: 12px;
+  color: #737791;
+}
+.icon-eagle img {
+  cursor: pointer;
+  width: 20px;
+}
+.search-input {
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  background-color: #f9fafb;
+  padding: 5px 15px;
+  gap: 10px;
+  align-items: center;
+}
+.search-input .input {
+  width: 100%;
+}
+.search-input input[type="search"] {
+  border: none;
+  background-color: #f9fafb;
+  width: 100%;
+}
+.search-input input[type="search"]:focus {
+  outline: none;
+}
+.icon-search img {
+  cursor: pointer;
+}
+.search-input2 {
+  display: none;
+}
+@media (max-width: 1024px) {
+}
+@media (min-width: 992px) {
+}
+@media (max-width: 768px) {
+  .wrapper-navbar-content {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .icon-barmenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 600px) {
+  .wrapper-navigasi {
+    gap: 1rem;
+    padding: 10px 1rem;
+  }
+  .title-halaman {
+    font-size: 20px;
+  }
+  .search-input {
+    position: absolute;
+    top: 100%;
+    width: calc(100% - 9%);
+    padding: 5px 15px;
+  }
+  .icon-barmenu img {
+    width: 20px;
+  }
+  .foto-profile-user .foto img {
+    width: 35px;
+  }
+  .foto-profile-user {
+    gap: 10px;
+  }
+  .wrapper-search-600px {
+    display: initial;
+    padding: 0 10px;
+  }
+}
+@media (min-width: 480px) {
+}
+@media (min-width: 320px) {
+}

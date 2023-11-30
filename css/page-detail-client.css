@@ -1,0 +1,261 @@
+.container {
+  width: 100%;
+  height: auto;
+}
+.container .untuk-background {
+  position: relative;
+  width: 100%;
+  height: 300px !important;
+}
+.untuk-background button {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  border: none;
+  top: 15px;
+  left: 15px;
+}
+.untuk-background button:hover {
+  background-color: #fecb20;
+}
+.container .untuk-background img {
+  width: 100%;
+  height: 200px !important;
+  background-size: cover;
+  object-fit: cover;
+}
+.container .untuk-profile {
+  width: 100%;
+  padding: 3rem;
+  position: relative;
+  margin-top: -250px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .foto-dan-title {
+  display: flex;
+  gap: 1rem;
+}
+.container .untuk-profile .foto-dan-title .foto img {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  object-fit: cover;
+  border: 10px solid#FECB20;
+}
+.container .title {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: flex-end;
+}
+.container .untuk-profile .name {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  gap: 10px;
+}
+.container .name img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.container .name button {
+  cursor: pointer;
+  display: flex;
+  background-color: white;
+  border: none;
+  align-items: center;
+  gap: 5px;
+  font-weight: 500;
+  font-size: 12px;
+}
+.container .status {
+  width: fit-content;
+}
+.container .status p {
+  padding: 6px 12px;
+  background-color: #fecb20;
+  font-weight: 500;
+  border-radius: 10px;
+  font-size: 12px;
+}
+.container .kelamin {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.container .kelamin img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+.container .kelamin p {
+  font-size: 12px;
+  font-weight: 500;
+}
+.container .id {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .id div {
+  margin-top: 3rem;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px;
+  display: flex;
+}
+
+/* todo untuk informasi detail client  */
+.informasi-detail-client {
+  width: 100%;
+  height: auto;
+  padding: 3rem;
+  column-gap: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.informasi-detail-client p {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  color: #c7c7b6;
+}
+.informasi-detail-client table {
+  width: 100%;
+}
+.informasi-detail-client tr {
+  width: 100%;
+}
+.informasi-detail-client td {
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #4437ab;
+  /* background-color: #00DBD3; */
+  /* background-color: #FF72AC; */
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+.informasi-detail-client th {
+  font-size: 12px;
+  text-transform: capitalize;
+}
+.informasi-detail-client table {
+  text-align: left;
+}
+
+/* todo untuk informasi transaksi */
+.informasi-transaksi-client {
+  width: 100%;
+  height: auto;
+  padding: 3rem;
+}
+.informasi-transaksi-client .table {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 500px;
+  padding: 10px;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.informasi-transaksi-client h1 {
+  text-align: center;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #c7c7b6;
+}
+.informasi-transaksi-client table {
+  text-align: left;
+  border-collapse: collapse;
+  min-width: 100rem;
+}
+.informasi-transaksi-client table img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+.informasi-transaksi-client td {
+  max-width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.informasi-transaksi-client th,
+td {
+  font-weight: 500;
+  color: #151d48;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.informasi-transaksi-client tbody td a .tbl-aksi-client {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+/* todo untuk modal  */
+.overlay-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+  z-index: 20;
+}
+.container-modal {
+  position: fixed;
+  width: 500px;
+  height: auto;
+  opacity: 0;
+  visibility: hidden;
+  padding: 2rem;
+  z-index: 30;
+  border-radius: 20px;
+  background-color: white;
+  transition: all 0.4s ease-in-out;
+  top: -100%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+.container-modal header {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 1rem;
+}
+.container-modal header img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.button-tambah-pembayaran {
+  margin-top: 2rem;
+}
+.button-tambah-pembayaran button {
+  background-color: #4437ab;
+  color: white;
+  font-size: 14px;
+  padding: 10px 15px;
+  border: 3px solid #151d48;
+  border-radius: 20px;
+  cursor: pointer;
+}

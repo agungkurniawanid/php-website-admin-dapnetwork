@@ -1,0 +1,78 @@
+.container-page-update-pegawai {
+    width: 100%;
+    height: auto;
+}
+.container-page-update-pegawai .wrapper-form {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.container-page-update-pegawai .wrapper-form p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #09425d;
+    margin-bottom: 1rem;
+}
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    cursor: pointer;
+}
+input[type="file"] {
+    opacity: 0;
+    visibility: hidden;
+}
+.container-page-update-pegawai .input {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .container-page-update-pegawai .input label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #151d48;
+    text-transform: capitalize;
+  }
+  .container-page-update-pegawai input[type="text"],
+  .container-page-update-pegawai input[type="number"],
+  .container-page-update-pegawai input[type="email"], 
+  .container-page-update-pegawai input[type="date"],
+  .container-page-update-pegawai select, 
+  .container-page-update-pegawai textarea {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    background-color: #f6f6f8;
+    color: #151d48;
+    font-size: 12px;
+    border-radius: 10px;
+  }
+  .container-page-update-pegawai .button {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+  }
+  .container-page-update-pegawai .button div:first-child button {
+    background-color: #4079ed;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .container-page-update-pegawai .button div:last-child button {
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 12px;
+    color: #151d48;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    cursor: pointer;
+  }

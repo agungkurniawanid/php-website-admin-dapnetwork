@@ -1,0 +1,237 @@
+/* ? pembungkus utama  */
+.wrapper-konten-dashboard {
+  background-color: #fafbfc;
+  width: 100%;
+}
+/* ? pembungkus  */
+.wrapper-card-informasi-card-cek-product {
+  padding: 1rem;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 2fr 1fr;
+}
+
+/* ? card 1  */
+.card-informasi {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem 1rem 2rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateX(50%);
+  transition: opacity 0.5s, transform 0.5s;
+}
+.card-informasi .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-informasi .header .title p:first-child {
+  font-size: 16px;
+  color: #05004e;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.card-informasi .header .title p:nth-child(2) {
+  margin-top: 2px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #737791;
+  text-transform: capitalize;
+}
+.card-informasi .header .cetak button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  transition: all 0.3s ease-in-out;
+}
+.card-informasi .header .cetak button:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+.card-informasi .header .cetak button p {
+  margin-top: 2px;
+  color: #05004e;
+  font-weight: 500;
+}
+.card-informasi .header .cetak img {
+  width: 1.4rem;
+  object-fit: cover;
+}
+
+.card-informasi .body {
+  display: grid;
+  margin-top: 1rem;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.card-informasi .body .card-body {
+  background-color: #ffe2e5;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 10px;
+  opacity: 0;
+  transform: translateX(50%);
+  transition: opacity 0.5s, transform 0.5s;
+}
+.card-informasi .body .card-body:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  transition: all 0.3s ease-in-out;
+}
+.card-informasi .body .card-body .nominal {
+  margin-top: 5px;
+  font-weight: 600;
+  color: #151d48;
+  font-size: 20px;
+}
+.card-informasi .body .card-body .title-nominal {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #425166;
+  font-weight: 500;
+}
+.card-informasi .body .card-body .deskripsi {
+  font-size: 10px;
+  font-weight: 500;
+  color: #4079ed;
+}
+.card-informasi .body img {
+  width: 40px;
+}
+#pemasukan {
+  background-color: #ffe2e5;
+}
+#pengeluaran {
+  background-color: #fff4de;
+}
+#keuntungan {
+  background-color: #dcfce7;
+}
+#kerugian {
+  background-color: #f3e8ff;
+}
+/* ? card 2  */
+.card-cek-product {
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  /* background: url("https://i.ibb.co/zPNb08f/docs-tinypng-3.png"), white; */
+  background-color: white;
+  object-fit: cover;
+  background-size: cover;
+  padding: 1rem;
+  opacity: 0;
+  transform: translateX(100%);
+  /* animation: cardcekproduct 1s ease-in-out forwards; */
+  transition: opacity 0.5s, transform 0.5s;
+}
+/* @keyframes cardcekproduct {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  } */
+.card-cek-product .title-subtitle .title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #151d48;
+}
+.card-cek-product .title-subtitle .subtitle {
+  width: 80%;
+  font-size: 14px;
+  font-weight: 500;
+  color: #737791;
+  margin-top: 5px;
+}
+.card-cek-product .daftar-product {
+  /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  gap: 5px;
+}
+.card-cek-product .daftar-product a {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 10px;
+  text-transform: capitalize;
+  background-color: #f4f6fe;
+  padding: 3px 6px;
+}
+.card-cek-product .daftar-product a:hover {
+  background-color: #4079ed;
+  color: white;
+  font-size: 14px;
+}
+.card-cek-product .button {
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.card-cek-product button {
+  border: none;
+  background-color: #4079ed;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.card-cek-product button:hover {
+  background-color: #2151b1;
+}
+.card-cek-product .button .total-product p:first-child {
+  font-size: 16px;
+  color: #151d48;
+  font-weight: 600;
+}
+.card-cek-product .button .total-product p:nth-child(2) {
+  font-size: 14px;
+  font-weight: 500;
+  color: #737791;
+}
+@media (max-width: 992px) {
+  .card-informasi .body {
+    grid-template-columns: 1fr 1fr;
+  }
+  .card-cek-product .button {
+    flex-direction: column;
+  }
+  .card-cek-product .button .total-product {
+    width: 100%;
+  }
+  .card-cek-product .btn {
+    width: 100%;
+  }
+  .card-cek-product button {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 600px) {
+  .wrapper-card-informasi-card-cek-product {
+    grid-template-columns: 1fr;
+  }
+  .wrapper-konten-dashboard {
+    margin-top: 15%;
+  }
+}
+@media (min-width: 480px) {
+}
+@media (min-width: 320px) {
+}

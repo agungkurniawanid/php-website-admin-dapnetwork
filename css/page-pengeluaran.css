@@ -1,0 +1,304 @@
+.container-page-pengeluaran {
+  padding: 20px;
+  width: 100%;
+  background-color: white;
+}
+.container-page-pengeluaran .subcontainer{
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  flex-direction: column;
+}
+.container-page-pengeluaran .wrapper-info-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.container-page-pengeluaran .wrapper-info-card .card {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+.container-page-pengeluaran .wrapper-info-card .card:first-child {
+  background-color: #e8f6fd;
+  color: #09425d;
+}
+.container-page-pengeluaran .wrapper-info-card .card:nth-child(2) {
+  background-color: #dcfce7;
+  color: #3cd856;
+}
+.container-page-pengeluaran .wrapper-info-card .card:nth-child(3) {
+  background-color: #fffaf1;
+  color: #ffba4a;
+}
+.container-page-pengeluaran .wrapper-info-card .card:nth-child(4) {
+  background-color: #ffe2e5;
+  color: #fa5a7d;
+}
+.container-page-pengeluaran .wrapper-info-card .card p:first-child {
+  font-size: 14px;
+  font-weight: 500;
+}
+.container-page-pengeluaran .wrapper-info-card .card p:last-child {
+  font-size: 12px;
+  font-weight: 500;
+}
+.container-page-pengeluaran .wrapper-info-card .card h1 {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* todo untuk table  */
+.container-page-pengeluaran .komponent-3 .wrapper-table {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.container-page-pengeluaran
+  .komponent-3
+  .wrapper-table
+  .wrapper-heading-btntambah-cari {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.container-page-pengeluaran
+  .komponent-3
+  .wrapper-table
+  .wrapper-heading-btntambah-cari
+  .heading
+  p {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #151d48;
+}
+.container-page-pengeluaran
+  .komponent-3
+  .wrapper-table
+  .wrapper-heading-btntambah-cari
+  .btntambah
+  button {
+  background-color: #4b80ef;
+  padding: 8px 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+.container-page-pengeluaran .komponent-3 .search {
+  flex-grow: 1;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 2px 20px;
+  gap: 10px;
+  border-radius: 10px;
+  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+}
+.container-page-pengeluaran .komponent-3 .search input[type="text"] {
+  background-color: #f4f4f4;
+  border: none;
+}
+.container-page-pengeluaran .komponent-3 .search input[type="text"]:focus {
+  outline: none;
+}
+.container-page-pengeluaran .komponent-3 .search img {
+  margin-top: 5px;
+  width: 24px;
+}
+.container-page-pengeluaran .table {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 500px;
+  padding: 10px;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  border-radius: 5px;
+  background-color: white;
+}
+.container-page-pengeluaran table {
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+.container-page-pengeluaran td {
+  max-width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.container-page-pengeluaran th {
+  font-weight: bold !important;
+  background-color: #f4f4f4;
+}
+.container-page-pengeluaran th,
+td {
+  font-weight: 500;
+  color: #151d48;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.container-page-pengeluaran table td img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+/* todo untuk modals */
+.overlay-page-pengeluaran {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 10;
+  }
+  .modal-page-pengeluaran {
+    position: fixed;
+    width: fit-content;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    top: -10%;
+    opacity: 0;
+    visibility: hidden;
+    padding: 10px;
+    left: 50%;
+    transition: all 0.4s ease-in-out;
+    height: fit-content;
+    background: #ffffff;
+    box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01),
+      0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09),
+      0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 26px;
+    max-width: 450px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .separator {
+    width: calc(100% - 20px);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    color: #8b8e98;
+    margin: 0 10px;
+  }
+  
+  .separator > p {
+    word-break: keep-all;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 11px;
+    margin: auto;
+  }
+  
+  .separator .line {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background-color: #e8e8e8;
+    margin: auto;
+  }
+  
+  .credit-card-info--form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .input_container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .split {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    gap: 15px;
+  }
+  
+  .split input {
+    width: 100%;
+  }
+  
+  .input_label {
+    font-size: 10px;
+    color: #8b8e98;
+    font-weight: 600;
+  }
+  
+  .input_field {
+    width: auto;
+    height: 40px;
+    padding: 0 0 0 16px;
+    border-radius: 9px;
+    outline: none;
+    background-color: #f2f2f2;
+    border: 1px solid #e5e5e500;
+    transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+  }
+  
+  .input_field:focus {
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 0px 2px #242424;
+    background-color: transparent;
+  }
+  
+  .purchase--btn {
+    height: 55px;
+    background: #f2f2f2;
+    border-radius: 11px;
+    border: 0;
+    outline: none;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #363636 0%, #1b1b1b 50%, #000000 100%);
+    box-shadow: 0px 0px 0px 0px #ffffff, 0px 0px 0px 0px #000000;
+    transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+  }
+  
+  .purchase--btn:hover {
+    box-shadow: 0px 0px 0px 2px #ffffff, 0px 0px 0px 4px #0000003a;
+  }
+  
+  /* Reset input number styles */
+  .input_field::-webkit-outer-spin-button,
+  .input_field::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .input_field[type="number"] {
+    -moz-appearance: textfield;
+  }
+  .modal-page-pengeluaran img {
+    width: 35px;
+    cursor: pointer;
+    object-fit: contain;
+    display: flex;
+    justify-content: flex-end;
+  }
+  

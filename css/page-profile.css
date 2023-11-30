@@ -1,0 +1,84 @@
+.container-page-profile {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://i.ibb.co/XswWFgz/Inn.png");
+    background-size: cover;
+}
+.wrapper-content-profile {
+    width: 900px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.918);
+    border-radius: 20px;
+    filter: blur(0.5px);
+    overflow: hidden;
+    display: grid;
+    padding: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+.component1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.component1 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #000;
+}
+.namalengkap {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    text-transform: capitalize;
+}
+.email {
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+    opacity: 0.6;
+}
+.jabatan {
+    font-size: 12px;
+    font-weight: 500;
+    color: #048CC9;
+    opacity: 0.6;
+}
+.btn-edit {
+    margin-top: 1rem;
+}
+.btn-edit a {
+    background-color: #000;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+}
+.component2 {
+    width: 100%;
+    overflow-y: scroll;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+}
+th {
+    text-align: left;
+}
+td:first-child {
+    text-align: center;
+}
+td:nth-child(2) {
+    text-align: left;
+}

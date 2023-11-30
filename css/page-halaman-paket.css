@@ -1,0 +1,196 @@
+/* todo untuk kontent dashbord  */
+.wrapper-page-halaman-paket {
+  width: 100%;
+  position: relative;
+  background-color: #fafbfc;
+  height: auto;
+  padding: 20px;
+}
+.wrapper-table-search-paket {
+}
+.wrapper-table-search-paket .wrapper-tomboltambah-search {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.wrapper-table-search-paket button {
+  padding: 10px 20px;
+  background-color: #4079ed;
+  color: white;
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.wrapper-table-search-paket .search {
+  flex-grow: 1;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  background-color: white;
+  padding: 2px 20px;
+  gap: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.wrapper-table-search-paket .search input[type="text"] {
+  border: none;
+}
+.wrapper-table-search-paket .search input[type="text"]:focus {
+  outline: none;
+}
+.wrapper-table-search-paket .search img {
+  margin-top: 5px;
+  width: 24px;
+}
+.table {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 500px;
+  padding: 10px;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+table {
+  text-align: left;
+  border-collapse: collapse;
+  min-width: 100rem;
+}
+table .img-pegawai {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+td {
+  max-width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+th,
+td {
+  font-weight: 500;
+  color: #151d48;
+  font-size: 14px;
+  padding: 8px;
+  text-align: left;
+}
+tbody td a .tbl-aksi-pegawai {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+/* todo untuk overlay paket  */
+.overlay-popup-insert-paket {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+}
+/* todo untuk popup insert paket  */
+.container-popup-insert-paket {
+    position: absolute;
+    z-index: 200;
+    top: -100%;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    visibility: hidden;
+    border-radius: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 2rem;
+    width: 400px;
+    height: auto;
+    overflow-y: auto;
+}
+.container-popup-insert-paket .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-popup-insert-paket .header div:first-child {
+    font-size: 14px;
+    color: #151d48;
+    font-weight: 500;
+}
+.container-popup-insert-paket .header img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    cursor: pointer;
+}
+.input {
+    margin-top: 1rem;
+    width: 100%;
+}
+label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #151d48;
+}
+.input input, textarea, select {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    background-color: #f6f6f8;
+    color: #151d48;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.button {
+    width: 100%;
+}
+button {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4079ed;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* todo untuk halaman update  */
+.container-page-update-paket {
+  padding: 2rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.container-page-update-paket .sub {
+  width: 500px;
+  height: auto;
+}
+.container-page-update-paket .sub .logo-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-page-update-paket .sub .logo-heading .logo img {
+  width: 50px;
+  object-fit: contain;
+  cursor: pointer;
+  transform: scaleX(-1);
+}
+.btn-update-paket {
+  margin-top: 2rem;
+}

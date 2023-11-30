@@ -1,0 +1,78 @@
+.wrapper-update-client {
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem 4rem;
+}
+.wrapper-update-client .wrapper-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-update-client form {
+    width: 500px;
+}
+.wrapper-update-client form .input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.wrapper-update-client form .input input, .wrapper-update-client form .input textarea, .wrapper-update-client form .input select {
+    width: 100%;
+    border: none;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+}
+.wrapper-update-client form .input label {
+    font-weight: 500;
+    color: #09425d;
+}
+.wrapper-update-client .image-input {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-update-client .wrapper-btnkembali {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #09425d;
+    cursor: pointer;
+}
+.wrapper-update-client .wrapper-btnkembali img {
+    background-color: #09425d;
+    padding: 10px;
+    width: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.wrapper-update-client .input .input-form {
+    position: relative;
+}
+#pilih-foto {
+    padding: 15px;
+    background-color: #f4f4f4;
+    color: #09425d;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 14px;
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+}
+.wrapper-update-client .form-submit {
+    width: 100%;
+    margin-top: 20px;
+}
+.wrapper-update-client button{
+    width: 100%;
+    background-color: #09425d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}

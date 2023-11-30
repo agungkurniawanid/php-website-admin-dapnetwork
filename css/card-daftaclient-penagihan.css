@@ -1,0 +1,53 @@
+.container-card-penagihan {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+}
+.wrapper-card-penagihan {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 2rem;
+}
+.wrapper-card-penagihan .imageclient-btndetail {
+    width: 100%;
+    gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-card-penagihan .btn-detail a {
+    padding: 10px 20px;
+    background-color: #4079ed;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.container-card-penagihan .imageclient-btndetail img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.wrapper-card-penagihan .nama-jeniskelamin {
+    margin-top: 1rem;
+}
+.wrapper-card-penagihan .nama {
+    font-weight: 600;
+    font-size: 16px;
+    color: #09425d;
+}
+.wrapper-card-penagihan .jenis-kelamin {
+    font-size: 14px;
+    font-weight: 500;
+    color: #d9d9d9;
+}
+.wrapper-card-penagihan .alamat {
+    margin-top: 1rem;
+    font-size: 12px;
+    font-weight: 500;
+    color: #09425d;
+}

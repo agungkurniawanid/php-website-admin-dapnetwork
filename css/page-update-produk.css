@@ -1,0 +1,184 @@
+.container-update-data-product {
+    width: 100%;
+    height: auto;
+}
+.container-update-data-product .header {
+    top: 0;
+    position: fixed !important;
+    background-color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    border-bottom: 2px solid #f4f4f4;
+}
+.container-update-data-product .header .tombol-kembali {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+}
+.container-update-data-product .header .tombol-kembali img {
+    width: 35px;
+    object-fit: contain;
+    background-color: #0547f3;
+    padding: 5px;
+    border-radius: 10px;
+}
+.container-update-data-product .header .tombol-kembali div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #151d48;
+    align-items: center;
+}
+.container-update-data-product .header .btn-update-delete {
+    display: flex;
+    gap: 10px;
+}
+.container-update-data-product .header .btn-update-delete button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #0547f3;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+}
+.container-update-data-product .header .btn-update-delete .btn:nth-child(2) button {
+    background-color: #fa5a7d;
+}
+.container-update-data-product .body {
+    height: calc(100% - 8%);
+    margin-top: 8%;
+}
+.container-update-data-product .body .image {
+    position: fixed;
+    width: 40%;
+    height: fit-content;
+    overflow-y: auto;
+}
+.container-update-data-product .body .image img {
+    width: 100%;
+    object-fit: contain;
+    background-size: contain;
+}
+.container-update-data-product .body .detail {
+    width: calc(100% - 40%);
+    margin-left: 40%;
+    padding: 1rem 3rem;
+}
+.detail .nama-id-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nama-id-status .nama {
+    font-size: 20px;
+    color: #151d48;
+    font-weight: 600;
+}
+.container-update-data-product .nama-id-status .id {
+    font-size: 14px;
+    color: #AAB4C8;
+    font-weight: 500;
+}
+.container-update-data-product .sts-produk {
+    font-size: 12px;
+    padding: 10px;
+    background-color: #3CD856;
+    font-weight: 500;
+    color: white;
+    border-radius:5px;
+}
+.container-update-data-product .harga-produk {
+    margin-top: 1rem;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 10px;
+}
+.container-update-data-product .harga-produk .name {
+    /* font-size: 14px; */
+    font-weight: 500;
+    color: #151d48;
+}
+.container-update-data-product .harga-produk .harga {
+    font-size: 24px;
+    font-weight: bold;
+    color: #151d48;
+}
+.container-update-data-product .merek-produk {
+    margin-top: 1rem;
+}
+.container-update-data-product .merek-produk .name {
+    font-weight: 500;
+    color: #151d48;
+}
+.container-update-data-product .merek-produk .merek {
+    font-size: 18px;
+    color: #151d48;
+    font-weight: bold;
+}
+.container-update-data-product .tanggal-ditambahkan {
+    margin-top: 1rem;
+}
+.container-update-data-product .tanggal-ditambahkan .name {
+    font-weight: 500;
+    color: #151d48;
+    text-transform: capitalize;
+}
+.container-update-data-product .tanggal-ditambahkan .tgl {
+    font-size: 18px;
+    color: #151d48;
+    font-weight: bold;
+}
+.container-update-data-product .kategori-produk {
+    margin-top: 1rem;
+}
+.container-update-data-product .kategori-produk .name {
+    font-weight: 500;
+    color: #151d48;
+    text-transform: capitalize;
+}
+.container-update-data-product .kategori-produk .kategori {
+    font-size: 18px;
+    color: #151d48;
+    font-weight: bold;
+}
+.container-update-data-product .stok-produk {
+    margin-top: 1rem;
+}
+.container-update-data-product .stok-produk .name {
+    font-weight: 500;
+    color: #151d48;
+    text-transform: capitalize;
+}
+.container-update-data-product .stok-produk .stok {
+    font-size: 18px;
+    color: #151d48;
+    font-weight: bold;
+}
+.container-update-data-product .deskripsi-produk {
+    margin-top: 1rem;
+}
+.container-update-data-product .deskripsi-produk .name {
+    font-weight: 500;
+    color: #151d48;
+    text-transform: capitalize;
+}
+.container-update-data-product .deskripsi-produk .deskripsi {
+    color: #151d48;
+    font-weight: 500;
+}
+
+.succesDelete {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+    display: none;
+}
