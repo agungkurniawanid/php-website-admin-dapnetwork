@@ -18,8 +18,22 @@ if(isset($_POST['submit'])) {
     } else {
         $idpemesanan = $_POST['idpemesanan'];
         $cek = mysqli_query($connection_database, "SELECT * FROM tb_pemesanan WHERE id_pemesanan = '$idpemesanan'");
-        if($cek->num_rows > 0) {
+        if(mysqli_num_rows($cek) > 0) {
             header("Location: konfirmPembatalan.php?id_pemesanan=$idpemesanan");
+        } else {
+            echo "
+              <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                  Swal.fire({
+                    title: 'ID Pemesanan tidak ditemukan!',
+                    text: 'ID Pemesanan yang anda masukkan tidak ditemukan!',
+                    icon: 'warning',
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Oke',
+                  });
+                });
+              </script>";
         }
     }
 } 
@@ -36,7 +50,6 @@ if(isset($_POST['submit'])) {
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>Pembatalan - Dapnetwork</title>
 </head>
-
 <body class="bg-gray-2">
     <div class="container w-full flex justify-center h-h-otomatis p-4">
         <div class="subcontaner w-full" style="width: 500px;">

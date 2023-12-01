@@ -45,7 +45,7 @@ if (!empty($_POST['email'])) {
                     $mail->Username = 'agungklewang26@gmail.com';
                     $mail->Password = 'qjng okuu ouov vlhz';
                     $mail->SMTPSecure = 'tls';
-                    $mail->Port = 465;
+                    $mail->Port = 587;
                     $mail->SMTPDebug  = 2;
                     $mail->setFrom('adgt1378@gmail.com');
                     $mail->addAddress($email);

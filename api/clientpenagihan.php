@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
         $SQL = "SELECT * FROM tb_client JOIN tb_pembayaran ON tb_pembayaran.id_client = tb_client.id_client JOIN
         tb_pemesanan ON tb_pemesanan.id_client = tb_client.id_client JOIN 
         tb_paket_layanan ON tb_pemesanan.id_paket_layanan = tb_paket_layanan.id_paket_layanan
-        WHERE tb_pembayaran.status_pembayaran = 'Belum Lunas' AND MONTH(tb_pembayaran.tanggal_pembayaran) = MONTH(CURRENT_DATE()) - 1";
+        WHERE tb_pembayaran.status_pembayaran = 'Belum Lunas' AND MONTH(tb_pembayaran.tanggal_pembayaran) = MONTH(CURRENT_DATE()) AND tb_pembayaran.kurang_pembayaran <= 0";
 
         // Jika nilai lokasi tidak kosong, tambahkan ke kondisi WHERE
         if (!empty($FILTER_LOKASI) && $FILTER_LOKASI !== 'Semua') {

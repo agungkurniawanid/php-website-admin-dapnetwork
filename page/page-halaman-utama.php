@@ -78,7 +78,7 @@ $TOTAL_PRODUCT = mysqli_fetch_assoc($SQL_SELECT_PRODUCT);
 $SQL_SELECT_CLIENT_BULAN_INI = mysqli_query($connection_database, "SELECT * FROM tb_client JOIN tb_pemesanan ON tb_client.id_client = tb_pemesanan.id_client JOIN tb_paket_layanan ON tb_pemesanan.id_paket_layanan = tb_paket_layanan.id_paket_layanan WHERE MONTH(tanggal_masuk) = MONTH(NOW())");
 
 // todo menampilkan total client 
-$SQL_SELECT_CLIENT = mysqli_query($connection_database, "SELECT COUNT(*) AS total_client FROM tb_client");
+$SQL_SELECT_CLIENT = mysqli_query($connection_database, "SELECT COUNT(*) AS total_client FROM tb_client WHERE MONTH(tanggal_masuk) = MONTH(NOW())");
 $TOTAL_CLIENT = mysqli_fetch_assoc($SQL_SELECT_CLIENT);
 
 // todo menampilkan total client sudah bayar bulan ini 
@@ -176,7 +176,7 @@ $TOTAL_CLIENT_BELUM_BAYAR_BULAN_INI = mysqli_fetch_assoc($QUERY_SELECT_CLIENT_BE
               <a href="page/page-detail-client.php?id_client=<?= $value['id_client'] ?>">
                 <div class="image-name-paketdipesan">
                   <div class="image">
-                    <img src="images/<?= $value['foto_client'] ?>" alt="profile user" />
+                    <img src="images/<?= $value['foto_client'] ?>" alt="profile user"/>
                   </div>
                   <div class="name-paketdipesan">
                     <div class="name"><?= $value['nama_client'] ?></div>

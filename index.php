@@ -68,7 +68,7 @@
                 <a
                   href="bayar-online.php"
                   class="p-4 text-sm text-black-1 font-poppins-500 hover:bg-gray-1 rounded-md"
-                  >Bayar Online</a
+                  >Bayar Tagihan</a
                 >
               </li>
             </ul>

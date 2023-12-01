@@ -1,7 +1,7 @@
 <?php
 require '../function/connection.php';
 if (isset($_POST['update'])) {
-    $QUERY_UPDATE = "UPDATE tb_pembayaran SET status_pembayaran = 'Belum Lunas'";
+    $QUERY_UPDATE = "UPDATE tb_pembayaran SET status_pembayaran = 'Belum Lunas', tanggal_pembayaran  = CURRENT_DATE()";
     $UPDATE = mysqli_query($connection_database, $QUERY_UPDATE);
     if ($UPDATE) {
         header("Location: page-cardinformasi-client.php");
@@ -36,7 +36,7 @@ $RESULT_DATA = mysqli_query($connection_database, $SELECT_DATA);
         </div>
         <div class="btn-update-penagihan">
             <form action="" method="post">
-                <div><button id="update-data" type="submit" name="update" class="py-2 px-4 rounded-md bg-blue-2 text-white mb-4">Refresh Data</button></div>
+                <!-- <div><button id="update-data" type="submit" name="update" class="py-2 px-4 rounded-md bg-blue-2 text-white mb-4">Refresh Data</button></div> -->
             </form>
         </div>
         <?php if (mysqli_num_rows($RESULT_DATA) > 0) : ?>
