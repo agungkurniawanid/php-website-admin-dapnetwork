@@ -36,14 +36,14 @@ if (!empty($_POST['email'])) {
         $PROSES_TB_RESET = mysqli_query($con, $SQL_TBRESET);
         if ($PROSES_TB_RESET) {
             if (mysqli_affected_rows($con) > 0) {
-                $mail = new PHPMailer(true);
+                $mail = new PHPMailer();
                 try {
-                    $mail = new PHPMailer(true);
+                    // $mail = new PHPMailer(true);
                     $mail->isSMTP();
                     $mail->Host = 'smtp.gmail.com';
                     $mail->SMTPAuth = true;
                     $mail->Username = 'agungklewang26@gmail.com';
-                    $mail->Password = 'qjng okuu ouov vlhz';
+                    $mail->Password = 'vftquhncmkhnghty';
                     $mail->SMTPSecure = 'tls';
                     $mail->Port = 587;
                     $mail->SMTPDebug  = 2;
