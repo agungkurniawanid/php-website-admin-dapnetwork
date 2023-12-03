@@ -99,7 +99,7 @@ if (isset($_POST['submit'])) {
         <div id="subcontainer" class="w-auto">
             <div id="btn-kembali"><img class="cursor-pointer w-10 bg-blue-2 p-2 rounded-full scale-x-mirror-1" src="ico/angle-small-right (1) 1.svg" alt="" onclick="window.location.href='registrasi.php'"></div>
             <div id="wrappercard" class="mt-4 p-8 bg-white rounded-3xl">
-                <div id="logodapnet" class="w-full flex justify-center"><img class="w-28" src="https://i.ibb.co/nQBNrRw/Group-2.png" alt=""></div>
+                <div id="logodapnet" class="w-full flex justify-center"><img class="w-28" src="https://i.imgur.com/Cz52lRv.png" alt=""></div>
                 <div id="header" class="mt-2 flex justify-center">
                     <h1 class="text-3xl font-poppins-800">Pemesanan Layanan</h1>
                 </div>

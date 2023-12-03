@@ -197,15 +197,15 @@ if (isset($_POST['submit'])) {
                 <div class="modal-body">
                     <div class="wrapper-card-norek">
                         <div class="card-norek">
-                            <img src="https://i.ibb.co/sQQ9TFn/BCA-Klik-Pay.png" alt="">
+                            <img src="https://i.imgur.com/R9chTKZ.png" alt="">
                             <p class="font-poppins-500 text-high text-white">3512965847</p>
                         </div>
                         <div class="card-norek">
-                            <img src="https://i.ibb.co/1MsBRhG/BRI-Direct-Debit.png" alt="">
+                            <img src="https://i.imgur.com/XWn3Di6.png" alt="">
                             <p class="font-poppins-500 text-high text-white">102349685746312</p>
                         </div>
                         <div class="card-norek">
-                            <img src="https://i.ibb.co/RPNDTf0/Mandiri-E-Cash.png" alt="">
+                            <img src="https://i.imgur.com/csLtcPE.png" alt="">
                             <p class="font-poppins-500 text-high text-white">1023145758432</p>
                         </div>
                     </div>

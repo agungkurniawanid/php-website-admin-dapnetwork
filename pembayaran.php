@@ -63,7 +63,7 @@ $RESULT = mysqli_fetch_assoc($QUERY_EXEC);
         <div id="subcontainer" class="w-auto">
             <div id="btn-kembali"><img class="cursor-pointer w-10 bg-blue-2 p-2 rounded-full scale-x-mirror-1" src="ico/angle-small-right (1) 1.svg" alt="" onclick="window.location.href='index.php'"></div>
             <div id="wrappercard" class="mt-4 p-8 max-w-w-500px bg-white rounded-3xl">
-                <div id="logodapnet" class="flex justify-center"><img class="w-28 object-contains" src="https://i.ibb.co/nQBNrRw/Group-2.png" alt=""></div>
+                <div id="logodapnet" class="flex justify-center"><img class="w-28 object-contains" src="https://i.imgur.com/Cz52lRv.png" alt=""></div>
                 <div id="header" class="mt-2 flex justify-center">
                     <h1 class="text-3xl font-poppins-800">Pembayaran</h1>
                 </div>
@@ -78,16 +78,16 @@ $RESULT = mysqli_fetch_assoc($QUERY_EXEC);
                         <p class="text-normal w-full p-2 rounded-md text-red-1 bg-red-trans-1 font-poppins-500">Silahkan pilih salah satu rekening pembayaran, setelah melakukan pembayaran harap lakukan konfirmasi dengan mengirim foto bukti pembayaran</p>
                         <div class="e-wallet mt-4 flex-col flex gap-gap-10px">
                             <div class="flex gap-gap-10px items-center w-full bg-blue-2 p-2 rounded-2xl">
-                                <img class="w-14" src="https://i.ibb.co/sQQ9TFn/BCA-Klik-Pay.png" alt="">
-                                <p class="font-poppins-500 text-high text-white">3512965847</p>
+                                <img class="w-14" src="https://i.imgur.com/R9chTKZ.png" alt="">
+                                <p class="font-poppins-500 text-high text-white">1009685746</p>
                             </div>
                             <div class="flex gap-gap-10px items-center w-full bg-blue-2 p-2 rounded-2xl">
-                                <img class="w-14" src="https://i.ibb.co/1MsBRhG/BRI-Direct-Debit.png" alt="">
-                                <p class="font-poppins-500 text-high text-white">102349685746312</p>
+                                <img class="w-14" src="https://i.imgur.com/XWn3Di6.png" alt="">
+                                <p class="font-poppins-500 text-high text-white">109867556434562</p>
                             </div>
                             <div class="flex gap-gap-10px items-center w-full bg-blue-2 p-2 rounded-2xl">
-                                <img class="w-14" src="https://i.ibb.co/RPNDTf0/Mandiri-E-Cash.png" alt="">
-                                <p class="font-poppins-500 text-high text-white">1023145758432</p>
+                                <img class="w-14" src="https://i.imgur.com/csLtcPE.png" alt="">
+                                <p class="font-poppins-500 text-high text-white">1009685574632109</p>
                             </div>
                         </div>
 
@@ -100,7 +100,7 @@ $RESULT = mysqli_fetch_assoc($QUERY_EXEC);
                             <div><label class="font-poppins-500 text-medium capitalize" for="foto">Foto Bukti Pembayaran</label></div>
                             <div>
                                 <input class="opacity-0 invisible" type="file" id="foto" name="foto" onchange="changeImageFormPembayaran(this);">
-                                <label for="foto" class="cursor-pointer"><img class="w-full max-w-w-500px max-h-h-500 object-contain" src="https://i.ibb.co/LhQ6Fr0/Upload-file-area.png" id="image-pembayaran-form" alt=""></label>
+                                <label for="foto" class="cursor-pointer"><img class="w-full max-w-w-500px max-h-h-500 object-contain" src="https://i.imgur.com/kxbLXm3.png" id="image-pembayaran-form" alt=""></label>
                             </div>
                         </div>
 

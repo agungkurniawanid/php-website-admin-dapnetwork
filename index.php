@@ -28,7 +28,7 @@
           <div class="LOGO">
             <img
               class="w-48 mobile:w-36 h-auto object-contain"
-              src="https://i.ibb.co/nQBNrRw/Group-2.png"
+              src="https://i.imgur.com/Cz52lRv.png"
               alt=""
             />
           </div>
@@ -150,7 +150,7 @@
           <div class="w-full flex justify-center items-center">
             <img
               class="object-cover w-3/4"
-              src="https://i.ibb.co/4W1KQSM/Mobile-life-cuate.png"
+              src="https://i.imgur.com/5uWAjDE.png"
               alt="GLOBE"
             />
           </div>
@@ -218,7 +218,7 @@
           <div class="logo flex justify-center">
             <img
               class="w-48"
-              src="https://i.ibb.co/nQBNrRw/Group-2.png"
+              src="https://i.imgur.com/Cz52lRv.png"
               alt=""
             />
           </div>

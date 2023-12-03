@@ -130,7 +130,7 @@ if ($lokasi == 'Cawang') {
     <div class="SUB-CONTAINER w-auto h-h-otomatis">
       <div class="mb-8"><img onclick="window.location.href='index.php'" class="w-10 scale-x-mirror-1 cursor-pointer bg-blue-2 rounded-full" src="ico/angle-small-right (1) 1.svg" alt=""></div>
       <div class="WRAPPER-CARD bg-white p-8 rounded-3xl w-full shadow-box-shadow-1">
-        <div class="flex justify-center"><img class="w-28" src="https://i.ibb.co/nQBNrRw/Group-2.png" alt=""></div>
+        <div class="flex justify-center"><img class="w-28" src="https://i.imgur.com/Cz52lRv.png" alt=""></div>
         <div class="HEADER w-full flex justify-center">
           <p class="text-3xl font-poppins-800 capitalize">Registrasi Pemesanan</p>
         </div>
@@ -141,7 +141,7 @@ if ($lokasi == 'Cawang') {
               <div><label class="text-medium font-poppins-500" for="foto">Foto Anda (Opsional)</label></div>
               <div>
                 <input class="opacity-0 invisible" onchange="changeImageForm(this)" type="file" name="foto" id="foto">
-                <label for="foto"><img id="image-client-form" class="cursor-pointer w-full max-w-w-500px max-h-h-500 object-cover" src="https://i.ibb.co/LhQ6Fr0/Upload-file-area.png" alt=""></label>
+                <label for="foto"><img id="image-client-form" class="cursor-pointer w-full max-w-w-500px max-h-h-500 object-cover" src="https://i.imgur.com/kxbLXm3.png" alt=""></label>
               </div>
             </div>
             <div class="input w-full mt-4">
