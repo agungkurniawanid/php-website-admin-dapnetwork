@@ -82,7 +82,7 @@ if (isset($_POST['pembayaran'])) {
     <div class="container">
         <div class="untuk-background">
             <button onclick="window.location.href='../dsb-halaman-client.php'">Kembali</button>
-            <img src="https://i.ibb.co/fCD4Q41/4399732.jpg" alt="okok">
+            <img src="https://i.imgur.com/PLY1Lp0.jpg" alt="okok">
         </div>
         <div class="untuk-profile">
             <div class="foto-dan-title">

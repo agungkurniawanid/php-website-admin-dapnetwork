@@ -266,7 +266,7 @@
       <div class="sub-container">
         <div class="logo">
           <div>
-            <img src="https://i.ibb.co/zZkyGXj/Component-1.png" alt="logo" />
+            <img src="https://i.imgur.com/e7vaNMr.png" alt="logo" />
           </div>
           <div>Dapnetwork</div>
         </div>
@@ -400,7 +400,7 @@
               <div>
                 <label for="image"
                   ><img
-                    src="https://i.ibb.co/W6wjBwY/Online-Review-pana-1.png"
+                    src="https://i.imgur.com/kxbLXm3.png"
                     alt="Placeholder-image-2"
                     border="0"
                     id="uploaded-image"

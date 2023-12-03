@@ -189,7 +189,7 @@ $hariKemarinResult = konversiHari($hariKemarin);
                         <?php endwhile; ?>
                     </div>
                 <?php else : ?>
-                    <div class="w-full flex justify-center"><img class="w-48" src="https://i.ibb.co/wNW9XhJ/404-error-with-people-holding-the-numbers-rafiki.png" alt=""></div>
+                    <div class="w-full flex justify-center"><img class="w-48" src="https://i.imgur.com/PMWXNEc.png" alt=""></div>
                 <?php endif; ?>
             </div>
             <!-- tanggal kemarin  -->
@@ -213,7 +213,7 @@ $hariKemarinResult = konversiHari($hariKemarin);
                         <?php endwhile; ?>
                     </div>
                 <?php else : ?>
-                    <div class="w-full flex justify-center"><img class="w-48" src="https://i.ibb.co/wNW9XhJ/404-error-with-people-holding-the-numbers-rafiki.png" alt=""></div>
+                    <div class="w-full flex justify-center"><img class="w-48" src="https://i.imgur.com/PMWXNEc.png" alt=""></div>
                 <?php endif; ?>
             </div>
             <!-- tanggal minggu ini  -->
@@ -237,7 +237,7 @@ $hariKemarinResult = konversiHari($hariKemarin);
                         <?php endwhile; ?>
                     </div>
                 <?php else : ?>
-                    <div class="w-full flex justify-center"><img class="w-48" src="https://i.ibb.co/wNW9XhJ/404-error-with-people-holding-the-numbers-rafiki.png" alt=""></div>
+                    <div class="w-full flex justify-center"><img class="w-48" src="https://i.imgur.com/PMWXNEc.png" alt=""></div>
                 <?php endif; ?>
             </div>
             <!-- tanggal bulan ini  -->
@@ -261,7 +261,7 @@ $hariKemarinResult = konversiHari($hariKemarin);
                         <?php endwhile; ?>
                     </div>
                 <?php else : ?>
-                    <div class="w-full flex justify-center"><img class="w-48" src="https://i.ibb.co/wNW9XhJ/404-error-with-people-holding-the-numbers-rafiki.png" alt=""></div>
+                    <div class="w-full flex justify-center"><img class="w-48" src="https://i.imgur.com/PMWXNEc.png" alt=""></div>
                 <?php endif; ?>
             </div>
         </div>

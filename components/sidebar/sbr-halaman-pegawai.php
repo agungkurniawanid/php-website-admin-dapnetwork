@@ -13,7 +13,7 @@
         <div class="logo-dan-title">
             <div class="logo-title">
                 <div class="logo">
-                    <img src="https://i.ibb.co/zZkyGXj/Component-1.png" alt="Logo Dapnetwork" />
+                    <img src="https://i.imgur.com/e7vaNMr.png" alt="Logo Dapnetwork" />
                 </div>
                 <div class="title-logo">Dapnet</div>
             </div>

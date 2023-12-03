@@ -35,7 +35,7 @@ function register($data) {
     $username = htmlspecialchars(trim($data["username"]));
     $password = password_hash($data["password"], PASSWORD_DEFAULT);
     $status = 'Aktif';
-    $hak_akses = 'Teknisi';
+    $hak_akses = 'Admin';
     $agama = htmlspecialchars(trim(stripslashes($data["agama"])));
     
     $result = mysqli_query($connection_database, "SELECT username FROM tb_pegawai WHERE username = '$username'");

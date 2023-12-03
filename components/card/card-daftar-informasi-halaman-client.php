@@ -31,11 +31,11 @@
             <div class="informasi-total-client">
               <div class="image">
                 <img
-                  src="https://i.ibb.co/48WyDd6/Group-3.png"
+                  src="https://i.imgur.com/a6w3ngL.png"
                   alt="icon-male"
                 />
                 <img
-                  src="https://i.ibb.co/T1HvPHv/Group-2.png"
+                  src="https://i.imgur.com/cu0dzEg.png"
                   alt="icon-female"
                 />
               </div>
